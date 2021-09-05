@@ -1,6 +1,6 @@
 # IT2810: Prosjekt 1
 
-> [Lenke til nettsiden](https://simenkristoff.github.io/IT2810_prosjekt_1/)
+> [Lenke til nettsiden](https://simenkristoff.github.io/IT2810_project_1/)
 
 ## Beskrivelse av prosjekt
 
