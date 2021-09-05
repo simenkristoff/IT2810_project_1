@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Hans Grecco Filipenco</title>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/scripts.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header id="site-nav" class="site-header">
+            <nav class="nav">
+                <ul class="nav-bar nav-bar-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Frontpage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artwork">Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#documentation">Documentation</a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="nav-toggler"></span>
+        </header>
+        <!-- end Header -->
+        <main class="main-content">
+            <!-- Banner-section -->
+            <article id="banner" class="section">
+                <div class="overlay"></div>
+                <div class="section-inner">
+                    <div class="section-title">
+                        <h1>Hans Grecco Filipenco</h1>
+                        <div class="border-gradient"></div>
+                    </div>
+                    <div class="section-content">
+                        <p></p>
+                        <div class="btn-group">
+                            <a class="btn btn-secondary btn-lg" href="#documentation">Documentation</a>
+                            <a class="btn btn-primary btn-lg" href="#artwork">Project</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end Banner-section -->
+
+            <!-- About-section -->
+            <article id="about" class="section">
+                <div class="section-inner">
+                    <div class="section-title">
+                        <h2 class="cursive">Biography</h2>
+                        <div class="border-gradient"></div>
+                    </div>
+                    <div class="section-content">
+                        <div class="d-flex">
+                            <div class="col-md-4 card">
+                                <img alt="Hans Grecco Filipenco" src="assets/portrait.jpeg" />
+                            </div>
+                            <div class="col-md-8">
+                                <p class="pt-2 ml-2">Photographer and designer based in Hammerfest, <span
+                                        class="thick theme-primary">Hans Grecco
+                                        Filipenco</span>,
+                                    has been honing is skills in geometric artwork for the past several years.
+                                    Originally an
+                                    italian cook from <span class="thick theme-dark">Marzamemi, Sicily</span> - Hans
+                                    blended
+                                    his passion for savory dishes along
+                                    with his keen eye for <span class="thick theme-darker">geometric
+                                        abstractions</span>,
+                                    bringing about a perfect marriage of his
+                                    two passions. </br></br>
+                                    Hans' deep dive into technology has allowed him to introduce another element to his
+                                    union and extend the range of his talent. By utilizing <span
+                                        class="thick theme-primary">SVGs</span>, Hans manifests his
+                                    expressions in artwork through depths of movement and composition.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <span class="signature mx-auto">H.G Filipenco</span>
+                </div>
+            </article>
+            <!-- end About-section -->
+
+            <!-- Artwork-section -->
+            <article id="artwork" class="section">
+                <div class="section-inner">
+                    <div class="section-title">
+                        <h2 class="text-right cursive">Artwork</h2>
+                        <div class="border-gradient-reverse" style="width: 100%;"></div>
+                    </div>
+                    <div class="section-content">
+                        <div class="d-flex">
+                            <div class="col-md-6">
+                                <h3 class="art-title">Notte e giorno ad Hammerfest</h3>
+                                <div class="art-wrapper">
+
+                                    <svg id="svg-art" class="art-display" height="400" width="300">
+                                        <polygon id="sun" points="200,20 225,37 225,63 200,80 175,63 175,37" fill="#333"
+                                            stroke="#dd9363" stroke-width="15" />
+                                        <polygon points="158,250 188,175 218,250" fill="#ce6a3e" />
+                                        <polygon points="113,250 148,135 183,250" fill="#e8ceab" />
+                                        <polygon points="38,250 88,75 138,250" fill="#8f3315" />
+                                        <polygon points="203,250 233,105 262,250" fill="#dd9363" opacity="0.8" />
+
+                                        <rect class="overlay" x="0" y="0" width="300" height="400" fill="#222"
+                                            opacity="0" />
+                                        <path id="ocean" d="M35 260 A20 17.5 0 0 0 265 260" fill="#006994" />
+                                        <polygon points="158,260 188,300 218,260" fill="#ce6a3e" opacity="0.4" />
+                                        <polygon points="113,260 148,320 183,260" fill="#e8ceab" opacity="0.4" />
+                                        <polygon points="38,260 88,330 138,260" fill="#8f3315" opacity="0.4" />
+                                        <polygon points="203,260 233,325 262,260" fill="#dd9363" opacity="0.4" />
+
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="art-wrapper">
+                                    <h3 class="art-title">Notte e giorno ad Marzamemi</h3>
+                                    <canvas id="canvas-art" class="art-display" height="400" width="300">
+                                    </canvas>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end Artwork-section -->
+
+            <!-- Documentation-section -->
+            <article id="documentation" class="section">
+                <div class="section-inner">
+                    <div class="section-title">
+                        <h2 class="cursive">Documentation</h2>
+                        <div class="border-gradient"></div>
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>
+                                <h3>CSS-grid and Flexbox-layout</h3>
+                                <p>This project uses a combination of CSS-grid and Flexbox-layout to manage the
+                                    responsive layout. The CSS-grid helps to align elements of the page in sequences,
+                                    and plays an important role for the structure of this website. The site consists of
+                                    three main elements, namely, the header, main-content, and footer. These elements
+                                    belong to a layout defined under the #App-stylings in the CSS-file, and positions
+                                    the header on top, followed by the main-content and the footer at the bottom.
+                                    </br></br>
+                                    The use of Flexbox allows for responsive layout as the screen-size may differ from
+                                    user to user. The content of this website is based of flex boxes consisting of
+                                    columns with different breakpoints. Each column class can take a value from 1-12
+                                    points, and each row can hold up to 12 points before a shift in line, i.e. move the
+                                    new column below the previous columns. As an example, we can have a row of 3 columns
+                                    of 4 points each. If we were to add a new column to the row, this column would be
+                                    placed below the three previous columns. Furthermore, columns can also have
+                                    breakpoints (small, medium), which moves the column to a single row if the
+                                    screen-size is lower than the breakpoint. To summarize, the use of Flexbox allows
+                                    for an easy implementation of a fluid layout which changes along with the size of
+                                    the users’ viewport.
+                                </p>
+                            </li>
+                            <li>
+                                <h3>HTML canvas and SVG in HTML</h3>
+                                <p>The Canvas element is initialized in the HTML code, and the code for representing the
+                                    art work is wrapped within a function. As a lot of the elements has the same
+                                    characteristics, i.e. drawing of polygons from point to point – a helper function is
+                                    used to reduce the amount of lines, and make the code more maintainable. The Canvas
+                                    is redrawn on each frame and uses global variables to update the position, colours,
+                                    rotation, etc. of the drawn elements to animate them. Furthermore, event listeners
+                                    for the Canvas such as “mouseenter” and “mouseleave” are subscribed to in order to
+                                    change the colors when the user hovers over the canvas.
+                                    </br></br>
+                                    This site uses three SVGs whereas two of them are used as icons and is stored in
+                                    files, and the third is the SVG-art itself and is produced inline/in-code. The SVGs
+                                    are built and colored within the SVG-element, and key sub-elements are given classes
+                                    which makes them easier to access from CSS. The animations and hover effects are
+                                    handled by CSS. This is done by listening to state changes in the SVG (i.e. hover)
+                                    and target the elements to animate/change by using the previously mentioned class.
+                                </p>
+                            </li>
+                            <li>
+                                <h3>Use of jQuery</h3>
+                                <p>The jQuery library makes it easy to target HTML-elements and run functions with
+                                    minimal lines of code compared to pure JavaScript. As this project has implemented
+                                    scroll logic for the navigation bar and some sort of animation for each section,
+                                    jQuery has been used to fill the gaps of CSS’ capabilities. The navigation bar
+                                    changes state when the user scrolls down the page, and thus, never leaves the users’
+                                    viewport. This is done by listening to the scroll value of the mouse and adding a
+                                    class to the navigation when a certain parameter is met. The same logic is
+                                    implemented for each section, in order to trigger intro animations.
+                                </p>
+                            </li>
+                            <li>
+                                <h3>Cross-browser testing.</h3>
+                                <p>As several browsers have their own interpretation of HTML, CSS, and JavaScript, it’s
+                                    important to test that the site is user-friendly on all targeted browsers. The
+                                    project has been developed with this in mind, and has been tested on three of the
+                                    most
+                                    used browsers, Firefox, Chrome and Safari. This was done by opening the .html file
+                                    in each browser and manually run through a predetermined user test. Discrepancies
+                                    was noted and solved until the site fulfilled the user test. As an addition, the
+                                    site was also tested on different devices, i.e. iPhone and iPad, by using Chrome’s
+                                    built-in developer tools.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- end Documentation-section -->
+        </main>
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="d-flex mx-auto pt-1">
+                <div class="col-md-4 my-auto">
+                    <div class="cursive w-90">
+                        <p class="text-center text-big"><span class="text-bigger">"</span>I found I could say things
+                            with color and shapes that I couldn’t say any other way—things I had no words for.<span
+                                class="text-bigger">"</span></p>
+                        <p class="text-right pr-2">— Georgia O’Keeffe</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-center">
+                    <div class="d-inline-block text-left">
+                        <h3 class="uppercase thin">Useful Links</h3>
+                        <ul class="nav-bar nav-bar-vertical nav-bar-scale mt-0 muted">
+                            <li class="nav-item">
+                                <a class="nav-link text-small" href="#top">Frontpage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-small" href="#about">Biography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-small" href="#artwork">Artwork</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-small" href="#documentation">Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="uppercase thin">Contact</h3>
+                    <ul class="no-style uppercase thin text-small p-0 mt-0 muted">
+                        <li><span class="thick">Mail: </span>hans.grecco@filipenco.com</li>
+                        <li><span class="thick">Tel: </span>+47 91371021</li>
+                        <li><span class="thick">Address: </span>Gateveien 24, 9600 Hammerfest</li>
+                    </ul>
+                </div>
+            </div>
+            <span class="separator mx-auto my-1"></span>
+            <div class="w-100 capitalize text-small text-center mx-auto mb-1">Copyright &copy 2021 Hans Grecco
+                Filipenco. All Rights Reserved.</div>
+        </footer>
+        <!-- end Footer -->
+    </div>
+</body>
+
+</html>

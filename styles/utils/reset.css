@@ -1,0 +1,39 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.2rem 0;
+}
+
+h2.cursive {
+  color: var(--theme-dark);
+
+  font-size: 2rem;
+}
+
+p,
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,64 @@
+@import url("../variables.css");
+@import url("./reset.css");
+@import url("./spacing.css");
+@import url("./display.css");
+@import url("./position.css");
+@import url("./flex.css");
+@import url("./text.css");
+@import url("./buttons.css");
+
+.w-100 {
+  width: 100%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.signature {
+  padding: 3rem;
+  transform: rotateZ(-5deg);
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid var(--theme-primary);
+}
+
+.border-gradient {
+  width: 0;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to left,
+    var(--theme-light),
+    var(--theme-dark)
+  );
+}
+
+.border-gradient-reverse {
+  width: 0;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    var(--theme-light),
+    var(--theme-dark)
+  );
+}
+
+.overlay {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  background: radial-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75));
+  width: 100%;
+  height: 100%;
+}

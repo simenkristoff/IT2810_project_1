@@ -1,0 +1,60 @@
+/* Buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 3px solid transparent;
+  border-radius: 2px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    transform 0.15s ease-in-out;
+}
+
+.btn:focus,
+.btn:hover {
+  text-decoration: none;
+  transform: scale(1.025);
+}
+
+.btn-group > .btn:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: hsl(15, 74%, 32%);
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: hsl(15, 74%, 35%);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: rgba(221, 149, 100, 0.7);
+  border-color: rgba(232, 206, 171, 0.5);
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: rgba(218, 140, 88, 0.9);
+  border-color: rgba(228, 196, 155, 0.7);
+}

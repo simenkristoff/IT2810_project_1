@@ -1,0 +1,11 @@
+:root {
+  --white: #fff;
+  --white-dim: rgba(255, 255, 255, 0.85);
+  --muted: hsl(0, 0%, 80%);
+  --dark: #000;
+  --theme-lighter: #f9f0e2;
+  --theme-light: #e8ceab;
+  --theme-primary: #dd9363;
+  --theme-dark: #ce6a3e;
+  --theme-darker: #8f3315;
+}

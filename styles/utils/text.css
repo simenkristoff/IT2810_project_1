@@ -1,0 +1,108 @@
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-md-left,
+.text-md-right,
+.text-md-center {
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+  .text-md-center {
+    text-align: center;
+  }
+}
+
+/* Text style */
+.no-style {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Font style */
+.cursive {
+  font-family: "Dancing Script", cursive;
+}
+.italic {
+  font-style: italic;
+}
+
+/* Font size */
+.text-smaller {
+  font-size: 0.8rem;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+.text-big {
+  font-size: 1.1rem;
+}
+.text-bigger {
+  font-size: 1.2rem;
+}
+
+/* Font weight */
+.light {
+  font-weight: lighter;
+}
+.thin {
+  font-weight: 300;
+}
+.normal {
+  font-weight: normal;
+}
+.thick {
+  font-weight: 500;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* Text transforms */
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* Text color */
+.white {
+  color: var(--white);
+}
+.white-dim {
+  color: var(--white-dim);
+}
+.muted {
+  color: var(--muted);
+}
+.theme-lighter {
+  color: var(--theme-lighter);
+}
+.theme-light {
+  color: var(--theme-light);
+}
+.theme-primary {
+  color: var(--theme-primary);
+}
+.theme-dark {
+  color: var(--theme-dark);
+}
+.theme-darker {
+  color: var(--theme-darker);
+}
